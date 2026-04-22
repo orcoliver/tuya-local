@@ -70,6 +70,7 @@ class TuyaLocalDevice(object):
             model (str | None): The device model, if known.
         """
         self._name = name
+        self._address = address
         self._manufacturer = manufacturer
         self._model = model
         self._children = []
@@ -158,6 +159,40 @@ class TuyaLocalDevice(object):
         self._AUTO_FAILURE_RESET_COUNT = 10
         self._lock = Lock()
 
+        self._mac = None
+        try:
+            asyncio.get_running_loop()
+            is_main_loop = True
+        except RuntimeError:
+            is_main_loop = False
+
+        if is_main_loop:
+            if hasattr(hass, "async_create_background_task"):
+                self._mac_task = hass.async_create_background_task(self._resolve_mac(), "tuya_local_resolve_mac")
+            else:
+                self._mac_task = hass.async_create_task(self._resolve_mac())
+        else:
+            self._mac_task = asyncio.run_coroutine_threadsafe(self._resolve_mac(), hass.loop)
+
+    async def _resolve_mac(self):
+        """Asynchronously resolve MAC address to avoid blocking the event loop."""
+        if not getattr(self, "_address", None):
+            return
+
+        def get_mac():
+            try:
+                from getmac import get_mac_address
+                return get_mac_address(ip=self._address)
+            except Exception as e:
+                _LOGGER.debug("Failed to resolve MAC address for %s: %s", self._address, e)
+                return None
+
+        mac = await self._hass.async_add_executor_job(get_mac)
+        if mac:
+            from homeassistant.helpers import device_registry as dr
+            self._mac = dr.format_mac(mac)
+            _LOGGER.debug("Resolved MAC address for %s: %s", self._address, self._mac)
+
     @property
     def name(self):
         return self._name
@@ -177,6 +212,11 @@ class TuyaLocalDevice(object):
         }
         if self._model:
             info["model"] = self._model
+
+        if getattr(self, "_mac", None):
+            from homeassistant.helpers import device_registry as dr
+            info["connections"] = {(dr.CONNECTION_NETWORK_MAC, self._mac)}
+
         return info
 
     @property
