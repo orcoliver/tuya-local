@@ -428,6 +428,7 @@ class TuyaLocalClimate(TuyaLocalEntity, ClimateEntity):
         """Return the current preset mode."""
         if self._preset_mode_dps is None:
             raise NotImplementedError()
+
         return self._preset_mode_dps.get_value(self._device)
 
     @property
