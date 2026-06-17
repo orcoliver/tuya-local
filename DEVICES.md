@@ -48,6 +48,7 @@
 - HJZ oil column radiator
 - Hombli radiator controller
 - Imaxfire AWA2 water vapour fireplace
+- InkbirdPlus HT2024 space heater
 - INOW Wi-Fi heating element (single and dual air/water temperature control variants)
 - Juskys OH125BW2 oil radiator
 - Kennedy II/JR electric fireplace
@@ -235,7 +236,7 @@
 - Neopower Black Diamond all-in-one heat pump water heater
 - Nulite NL-B245 monobloc heat pump
 - Oekoboiler RS series heat pump water heater
-- Powerworld PW040, PWS58330, PWS58410 air+water heat pumps
+- Powerworld PW040, PW060, PWS58330, PWS58410 air+water heat pumps
 - Rinnai Enviroflo heat pump water heater
 - Sanden GAU-A45HPD WiFi heat pump controller
 - Shuangri SR223 solar water heating controller
@@ -287,6 +288,7 @@
 - EZAIoT R9Lite thermostat
 - EZAIoT thermostat smartplug
 - Garza Aspen and (unknown model) thermostats
+- HaoLeSi Mini thermostat
 - Herschel XLS T-MS mains and T-PL plugin thermostats
 - Hysen HY02TP, HY08ACF, HY08WE-2, HY101RF thermostats
 - Inkbird IPT-2CH v2.0 reptile thermostat
@@ -473,7 +475,7 @@
 - iHunt 400m³/h and 50m³/h air purifiers
 - Jafanda JF260S and JF500 air purifiers
 - Kilo Plus air purifier
-- Klarta Stor 2 and Forste 4 air purifiers
+- Klarta Stor 2, Stor 3 and Forste 4 air purifiers
 - Kogan 2S and 5 pro air purifiers
 - Lifubide X600 air purifier
 - Meaco Clean CA-HEPA air purifier
@@ -603,13 +605,14 @@
 - Aeno KS1S kitchen scale
 - Amenzo dishwasher
 - Anko 1.7L smart kettle
+- Atomi coffee maker
 - BlitzHome BH-CDW1 dishwasher
 - Ciarra CBCS4850 range hood
 - Casdon 16J3S dishwasher
 - Casdon KG1 inline water dispenser
-- Casdon TD Pro 2 and T2E ovens
+- Casdon TD Pro 2, TD Pro 3 and T2E ovens
 - Cecofry 5500 Connected air fryer
-- Etna VW644MC dishwasher
+- Etna VW644MC dishwasher, AB791 range hood
 - Fiesta DK-1G smart kettle
 - Goldair GGK1000 smart kettle
 - Götze and Jensen KT975K smart kettle
@@ -1050,7 +1053,8 @@ of device.
 
 ### Lawnmowers
 
-- MoeBot S-series mowers (also sold under Parkside and other brands, may require protocol version set manually to 3.4)
+- MoeBot S-series mowers
+- Parkside WiFi and Bluetooth mowers
 
 ### Locks
 
@@ -1161,6 +1165,7 @@ port and password.
 - FeelNeedy P-LFP01 camera pet feeder
 - Frienhund ACF180W-A dual camera pet feeder
 - Fukumaru AF01-W pet feeder
+- FurPipi PF05 pet feeder
 - Hapaw pet fountain
 - Happy Llama Tech SoCool pet feeder
 - Homall DE-10115O 90L cat litter box
@@ -1168,6 +1173,7 @@ port and password.
 - iLonda L88 fish feeder
 - Imipaw DUW21 WBR3D cat feeder
 - iPettie W5 pet feeder
+- Kalado KPF01 pet feeder
 - Kanchou pet fountain
 - Leo's Loo Too pet toilet
 - Littepets MA2 series Cute Baby cat litter box
@@ -1266,6 +1272,7 @@ port and password.
 - Brennenstuhl WFD3050P PIR motion activated CCT spotlight
 - Bresser Smart 7-in-1 weather station
 - Bresser Smart Thermo-hygrometer
+- BW salt pool chlorinator
 - Chtoocy MC82 refrigerator thermometer
 - CO2-Box air quality monitor
 - CO2v1 carbon dioxide sensor
