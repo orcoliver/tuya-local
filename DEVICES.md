@@ -26,6 +26,7 @@
 - Cronos GPH-D-DA heater
 - Devola Intelligent and Patio heaters
 - Dynasty BTX fireplace
+- Ecoso WiFi heating element
 - Ecostrad Accent iQ heating panel
 - Ecostrad iQ ceramic radiators
 - Ecostrad iQ heating elements
@@ -43,6 +44,7 @@
 - Goldair GPPH, GCPV, GECO, GPOC and PH-ET heaters
 - Hama radiator controller
 - Heatstorm DH-100-TWI, HS-1500 and HS-6000-GC heaters
+- Heatstrip Elegance outdoor heater
 - Herschel Select XLS heated bathroom mirror with lights
 - Herschel infrared heater
 - HJZ oil column radiator
@@ -103,6 +105,7 @@
 ### Air Conditioners / Heat pumps
 
 - Airton air conditioner
+- Airwoods fresh air heat pump
 - Arlec PA1123BKHA portable air conditioner
 - Ballu Aura air conditioner
 - Be Cool BC14KL2101F
@@ -141,6 +144,7 @@
 - Igenix IG9901WIFI portable air conditioner
 - Inventor Comfort and Leon air conditioners
 - Kaisai Pro Heat+ air conditioner
+- Kibernetik 12K portable split air conditioner
 - Klarstein Iceblock Ecosmart air conditioner
 - Kogan portable air conditioners (Y09, Y12, Y16, Vostok)
 - Kogan vertical window air conditioner
@@ -182,6 +186,7 @@
 - Brustec BR-80 pool heat pump
 - BWT FI 45 heat pump
 - Edge Theory Labs cold plunge heat pump
+- EleChico CCIB001-CC1177D ice bath heat pump controller
 - Evotherm ETI series heat pump
 - Fairland IPHCR15, RMIC06, X20 pool heat pumps (also Pool Systems and other brands)
 - Garden PAC pool heat pump (also works with Summerwave Si Series)
@@ -365,6 +370,7 @@
 - Cecotec ceiling fan with light
 - Chameleon TCG 100cm tower fan
 - Chanfok ceiling fan with cool/warm white dimmable light (2 variants)
+- Coibeu WKFS-004 ceiling fan with light
 - ComfortZone Powr Curve stand fan and CZTF423S tower fan
 - Create XW-FAN-215-D ceiling fan with light (dimming and non-dimming variants)
 - Depauley WS-FPZ37-18I-EU ceiling fan with light
@@ -377,7 +383,7 @@
 - Duux Whisper Flex Ultimate
 - Dyras TF-16WIFI tower fan
 - Eberg Fyn tower fan
-- EcoNour 42" tower fan
+- EcoNour 42" 3-speed and 12-speed tower fans
 - Efenz Kith ceiling fan with light
 - Eglo 5 speed + sleep ceiling fan (with or without light and presets)
 - eLinkSmart KH-SY2626 pedestal fan
@@ -433,6 +439,7 @@
 - Orison Chanfok Neo ceiling fan with light
 - Orison RGB ambient bladeless ceiling fan
 - Ovlaim ceiling fan with cool/warm white dimmable light
+- Pioneer ECOasis 150 ERV
 - Plikc Ario WiFi air vent
 - Poiema SGT-F12W fan
 - Point One Technology Storm VSPEC-IV dual axis corner fan
@@ -463,6 +470,7 @@
 - Treatlife DS03 fan with dimmable light
 - Varin CFWI50 RGBCW ceiling fan
 - Varin VA-E003 and VA-002 ceiling fans with light
+- Vivohome AirBoost Louver Series register booster fan
 - Windcalm ceiling fans with and without cool/warm white dimmable light
 - Yamazen Living AHX-ALD30 pedestal fan
 - Yidi/NHZS fan and light wall switch
@@ -474,6 +482,7 @@
 
 - Alen BreatheSmart 35i and 45i air purifiers
 - Arlec APR005HA air purifier
+- AtmosC A Series air purifier
 - Breville Easy Air, Smart Air Connect, Smart Air Viral Protect Plus and Night Glow purifiers
 - Cecotec TotalPure purifier
 - Cleverio AP100 air purifier
@@ -503,7 +512,7 @@
 - Soleusair A02 and A10 air purifiers
 - Stadler Form Roger air purifier
 - Tesla Smart S300, Pro and Mini air purifiers
-- Trident AirDome-70 air purifier
+- Trident AirDome 60 and 70 air purifiers
 - TrueLife P3 and P7 air purifiers
 - Vephos True air purifier
 - Vestfrost VP-A1Z40HW air purifier
@@ -517,6 +526,7 @@
 - AlecoAir D12 ECO, D12/D16 Home, D14, D16, D25 Traditio dehumidifiers
 - Argo Dry Pury Evo WF dehumidifier
 - Arida S7L-2 dehumidifier
+- Belair Baltic Irradio 20L dehumidifier
 - Cecotec BigDry 4000 dehumidifier
 - Clean Air Optima CA-702 dehumidifier
 - Cleverio AD100 dehumidifier
@@ -567,6 +577,7 @@
 - Vivosun DE0003 dehumidifier
 - Wellio D008A 20L dehumidifier
 - WetAir WAD-A10L dehumidifier
+- Weye WDH-29A dehumidifier
 - Woods MRD25GW and WDD90 dehumidifiers
 
 ### Humidifiers
@@ -728,7 +739,7 @@
 - Absina Wallbox EV charger (also sold as Dé Wallbox and supporting 16, 32, 40 and 50A single and 3-phase variants)
 - ADPOW GO-B6 Pro-32A EV charger
 - AFYEEV 16A 11kW, 32A 7kW and 22kW portable EV chargers
-- Aimiler 11kW EV charger
+- Aimiler 11kW 16A and 40A EV chargers
 - Ampbolt Level 1/2 portable EV charger
 - dé Wall EV charger (3-phase 22Kw)
 - Demuda 4048/6048 MPPT solar charge controller
@@ -741,12 +752,12 @@
 - Ipengen GO-E31-16A and 32A EV chargers
 - Junsun 32A EV charger
 - Kolanky 3.6kW EV charger
-- Lidl Tronic solar power storage
+- Lidl Tronic solar power storage and Balcony solar inverter
 - MakeSkyBlue MPPT solar battery charger
 - Nine 32A EV charger
 - Noeifevo Q21W EV charger
 - Olight Ostation 2 battery charging station
-- Oscal PowerMax 6000 portable power station
+- Oscal PowerMax 2400 Pro and 6000 portable power stations
 - Parkside PLGS 2012 A1 smart charger for powertools
 - SEVR X1 EV charger
 - SRNE SE Series lithium battery
@@ -963,9 +974,11 @@ of device.
 - oLight Sphere ambient light
 - Outon Smart Lamp
 - Peteme recessed lighting
+- Pinar SmartLux door lights
 - PowerAsia RGB 6-inch recessed lighting
 - RGB48 RGBIC string light
 - Richelieu tunable white LED puck light (166142030)
+- Sensio 240V Kinetic Receiver dimmer and Titan Kinetic 5 light driver
 - Spa Electrics Iris pool light controller
 - Space Dog Music Lamp (works for Aurora Smart Galaxy Star)
 - SunnyBot plant light
@@ -1007,6 +1020,7 @@ of device.
 - Eachen GD-DC5 garage door opener
 - Eruiklink curtain motor
 - Etersky curtain switch with backlight and timing control
+- Fakro ARZ roof blind
 - FS-03W curtain switch with backlight control
 - Garen TSI Fit and Kit Central garage door openers
 - Graywind window shades
@@ -1209,6 +1223,7 @@ port and password.
 - Nedis pet feeder
 - Newpet pet feeder
 - Ningbo BF314A camera pet feeder
+- Nityers Titan camera pet feeder
 - Oneisall PFD-002 Pro IR pet feeder
 - Papifeed pet feeder
 - Pawspik Microchip pet feeder
@@ -1366,6 +1381,7 @@ port and password.
 - RTCZ-03 human presence sensor
 - Ryakka 7-in-1 smart pool monitor
 - SD123 HPR01 human presence radar
+- Shrivee triple water timer
 - SNT957W-TDE temperature sensor
 - SNT957W-DE CBU temperature and humidity sensor
 - Sodial probe thermometer
