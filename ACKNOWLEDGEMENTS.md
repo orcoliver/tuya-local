@@ -819,7 +819,7 @@ Further device support has been made with the assistance of users. Please consid
 - [Zuz666](https://github.com/Zuz666) for contributing support for Imaxfire AWA2 water vapour fireplace and improvements to light entities.
 - [mmaarrkk02](https://github.com/mmaarrkk02) for contributing support for NWT WDH-10EM dehumidifier.
 - [toller892](https://github.com/toller892) for contributing a fix for water heaters.
-- [terryrankine](https://github.com/terryrankine) for contributing support for AOSDK garage door with light.
+- [terryrankine](https://github.com/terryrankine) for contributing support for AOSDK garage door with light and Zemismart SPM01-D2TW-ZM single phase energy meter.
 - [DawidSu](https://github.com/DawidSu) for contributing support for Varpoolfaye pool heat pump.
 - [rbswift](https://github.com/rbswift) for contributing improvements to Intaflo Intabloc combo heat pump.
 - [wantstoautomate](https://github.com/wantstoautomate) for contributing improvements to Lublueblu SL60D vacuum.
@@ -901,3 +901,15 @@ Further device support has been made with the assistance of users. Please consid
 - [rfinnie](https://github.com/rfinnie) for contributing support for Aimiler 40A EV charger.
 - [ptparker](https://github.com/ptparker) for contributing support for Pioneer ECOasis 150 ERV.
 - [rippe77](https://github.com/rippe77) for contributing improvements to BHT002 GBLW thermostat.
+- [anddon](https://github.com/anddon) for contributing support for Olimpia Splendid Unico Pro air conditioner.
+- [paradoxisme](https://github.com/paradoxisme) for contributing support for Sofucor KBS ceiling fan with light.
+- [msemenkin](https://github.com/msemenkin) for contributing support for Neo Coolcam 16 zone sprinkler controller.
+- [awadak3davra](https://github.com/awadak3davra) for contributing improvements to TOMPD-63LW/SW breaker.
+- [gurmeherchawla](https://github.com/gurmeherchawla) for contributing support for Imagine 3+1 triple switch with fan controller.
+- [christhementalist](https://github.com/christhementalist) for contributing support for Goldair GPCV405 convection heater.
+- [adfhogan](https://github.com/adfhogan) for contributing support for Aqua Plus APAIO270 water heater.
+- [ffais](https://github.com/ffais) for contributing support for Joekol dual pump watering system.
+- [jmlankford](https://github.com/jmlankford) for contributing support for Lumary D1 downlight.
+- [amperepoint](https://github.com/amperepoint) for contributing support for AmperePoint Q Series EV chargers.
+- [claudiu-persoiu](https://github.com/claudiu-persoiu) for contributing support for Ti Pro25 cat litter box.
+- [erewego](https://github.com/erewego) for contributing improvements to QTFV3-3 air quality sensor.

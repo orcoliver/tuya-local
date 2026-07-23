@@ -3,7 +3,7 @@
 ### Heaters
 
 - Advanced Fires 1500 electric fireplace
-- Amantii Bespoke R1-2-AP1 fireplace
+- Amantii Bespoke R1-2-AP1 and TRD Lumina fireplaces
 - AMOS CY-B06ERW oil radiator
 - Andersson GSH heater
 - Arlec 2200W and 2400W panel heaters, CEH243HA ceramic heater
@@ -129,6 +129,7 @@
 - ElectriQ 12WMINV
 - ElectriQ Airflex, EcoSilent models
 - ElectriQ SupremeCool SC16HPW
+- Eurom AC 5201 Caravan and Home air conditioner
 - Fersk Vind 2
 - Fisher Summer air conditioner
 - Fral Super Cool FSC08 WiFi portable air conditioner
@@ -156,6 +157,7 @@
 - Morris WFIN-35168 air conditioner
 - MyCond Berg air conditioner
 - Nedis ACMB1WT12 portable air conditioner
+- Olimpia Splendid Unico Pro air conditioner
 - Qlima SC 7035S and MS-AC 5002 air conditioners
 - Rotenso Roni R35WI and Roni X
 - Royal Clima Fresh air conditioner
@@ -218,6 +220,7 @@
 
 - Apricus heat pump water heater
 - A.O. Smith HeatBot 15L electric water heater
+- Aqua Plus APAIO270 heat pump water heater
 - Aquatech Rapid/X6 heat pump water heater
 - Aquaviva AVH15S combo air-water heat pump
 - Arçelik AHPH-MM series combo air-water heat pump
@@ -408,6 +411,7 @@
 - Humhold 24" low profile ceiling fan with RGB+CW lights
 - Hunter Pacific 6 and 9 speed ceiling fans with light
 - HYD WeAir Plus bladeless fan with heating function
+- Imagine 3+1 triple switch with fan controller
 - Immax Neo Lite Vento ceiling fan with light
 - Inkbird IVC001W fan controller
 - InTec ceiling fan with light
@@ -462,6 +466,7 @@
 - Skyfan DC fan with light
 - Smart Mist3 TX-1602MF (ZJ-1522A-WiFi)
 - Smartmi Air Circulating fan
+- Sofucor KBS ceiling fan with light
 - Stirling FS1-40DC pedestal fan
 - Sulion Crixus L ceiling fan with light
 - Temple and Webster Alina ceiling fan
@@ -517,7 +522,7 @@
 - Vephos True air purifier
 - Vestfrost VP-A1Z40HW air purifier
 - Vork VK6067AW air purifier
-- Webber AP9750 air purifier
+- Webber AP9750 and APG7800 air purifiers
 
 ### Dehumidifiers
 
@@ -728,9 +733,8 @@
 - WMDL 2C dual channel bidirectional energy meter
 - Xoca DAC2121C BI energy meter
 - Yagusmart 3PN 63A 3-phase multi-tariff and iMeter 3PN energy meters
-- Zemismart SDM01-TW0-12-ZM 3-phase bidirectional energy meter
-- Zemismart SMD02T-TZ 2-phase 120A bidirectional energy meter
-- Zemismart SPM02-(multiple variants) 3-phase energy meter
+- Zemismart SDM01 1 and 3-phase bidirectional energy meters
+- Zemismart SPM02-(multiple variants) 2 and 3-phase energy meter
 - Zemismart ZMAi-90 smart switch energy meter
 - ZM-Wi-Fi smart meter
 
@@ -741,6 +745,7 @@
 - AFYEEV 16A 11kW, 32A 7kW and 22kW portable EV chargers
 - Aimiler 11kW 16A and 40A EV chargers
 - Ampbolt Level 1/2 portable EV charger
+- AmperePoint Q series EV chargers
 - dé Wall EV charger (3-phase 22Kw)
 - Demuda 4048/6048 MPPT solar charge controller
 - Dowell iOneAIO EV charger
@@ -956,6 +961,7 @@ of device.
 - LSC Smart Connect Neon LED strip
 - LSC Smart Connect Party string lights
 - LSC smart connect RGB CCT lightbulb (similar to older generic bulbs, so may work for others)
+- Lumary D1 6 inch retrofit downlight (independent RGB ring and CCT centre)
 - Lytmi Fantasy/Neo 3 HDMI sync backlight
 - Malmbergs QS-WIFI-D02-TRIAC single dimmer module
 - Malmbergs QS-WIFI-D02-TRIAC-2C dual dimmer module
@@ -1248,6 +1254,7 @@ port and password.
 - Sailesi self-cleaning litter box
 - Sobralik pet fountain
 - Tesla Smart pet feeder
+- Ti Pro25 cat litter box
 - Tonepie T1PRO cat litter box
 - Tonepie T1 Pro MAX cat litter box
 - V330L pet feeder
@@ -1285,7 +1292,10 @@ port and password.
 - Holman WX1 tap timer (sprinkler controller)
 - Holman WX2 dual tap timer
 - Holman WX8 8 sprinkler irrigation controller
+- Inkbird IIC400 irrigation controller
+- Joekol dual pump watering system
 - KRain KRX8 (also KRX6) irrigation controller
+- Neo Coolcam 16 zone sprinkler controller
 - Neo NAS-WV02W water use monitoring valve
 - Neptun Smart and Smart+ water leak control systems
 - Qoto 03 smart water valve / sprinkler controller
@@ -1380,6 +1390,7 @@ port and password.
 - RSE TY-WFH v3.01 gate controller
 - RTCZ-03 human presence sensor
 - Ryakka 7-in-1 smart pool monitor
+- Satisure power outage alarm
 - SD123 HPR01 human presence radar
 - Shrivee triple water timer
 - SNT957W-TDE temperature sensor
