@@ -804,7 +804,7 @@ Further device support has been made with the assistance of users. Please consid
 - [DomJoke](https://github.com/DomJoke) for contributing support for Hiniso dehumidifier.
 - [c3p0vsr2d2](https://github.com/c3p0vsr2d2) for contributing support for KMC 4-outlet wall tap with energy monitoring.
 - [mcguires5](https://github.com/mcguires5) for contributing support for the red-blue variant of Touchstone Sideline fireplace.
-- [Daniel-Boluda](https://github.com/Daniel-Boluda) for contributing support for NHZS fan switch.
+- [Daniel-Boluda](https://github.com/Daniel-Boluda) for contributing support for NHZS fan switch, WD-01GDE irrigation controller.
 - [kdog31](https://github.com/kdog31) for contributing support for Arlec PFC002HA Series 2 pet feeder..
 - [NarfX4](https://github.com/NarfX4) for contributing support for Konyks eCosy 2024 pilot wire heating controller.
 - [maxios777](https://github.com/maxios777) for contributing support for WetAir WAD-A10L dehumidifier.
@@ -927,3 +927,18 @@ Further device support has been made with the assistance of users. Please consid
 - [grinser](https://github.com/grinser) for contributing improvements to Costway portable AC.
 - [lucasoskorep](https://github.com/lucasoskorep) for contributing improvements to Friedrich air conditioner.
 - [devonuto](https://github.com/devonuto) for contributing support for Zemismart ZM25EL roller shade.
+- [sthomas727](https://github.com/sthomas727) for contributing support for Elspet Orbitie litter box.
+- [odiechoo](https://github.com/odiechoo) for contributing support for SPT Dark Knight water heater.
+- [fuentesdelafuente](https://github.com/fuentesdelafuente) for contributing support for Tongou TOWSMR1-40A breaker.
+- [larstobi](https://github.com/larstobi) for contributing support for Frankever water valve and improvements to valves in general.
+- [nitaybz](https://github.com/nitaybz) for contributing improved subdevice unique id allocation.
+- [doctordarko](https://github.com/doctordarko) for contributing improvements to Dreamlight LED light.
+- [calexander3](https://github.com/calexander3) for contributing support for Anderic UC7235T4 ceiling fan receiver.
+- [jrhrsmit](https://github.com/jrhrsmit) for contributing support for Blaupunkt XBoost robot vacuum.
+- [SiwatS](https://github.com/SiwatS) for contributing support for Kogan heater fan.
+- [pranksta02](https://github.com/pranksta02) for contributing support for Aquatech X8 Fusion water heater.
+- [matisere38](https://github.com/matisere38) for contributing support for BWT Energy Saver pool controller.
+- [zhuguoqing123](https://github.com/zhuguoqing123) for contributing support for Rhino King XNW-AC, Smart AC, H7 central HVAC thermostats.
+- [bapesupreme](https://github.com/bapesupreme) for contributing support for Dayette AP409 air purifier.
+- [mabrews](https://github.com/mabrews) for contributing support for Modern Flames Landscape Pro Slim fireplace.
+- [Tweebloesem](https://github.com/Tweebloesem) for contributing support for Clean Air Optima CA-707 dehumidifier.
