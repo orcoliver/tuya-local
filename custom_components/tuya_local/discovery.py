@@ -43,7 +43,8 @@ from homeassistant.const import CONF_HOST
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.event import async_track_time_interval
 
-from .const import CONF_DEVICE_CID, CONF_DEVICE_ID, CONF_TYPE, DATA_DISCOVERY, DOMAIN
+# from .const import CONF_DEVICE_CID
+from .const import CONF_DEVICE_ID, CONF_TYPE, DATA_DISCOVERY, DOMAIN
 from .helpers.config import get_device_id
 from .helpers.device_config import get_config
 
@@ -202,12 +203,12 @@ class TuyaLANRediscovery:
 
             for gwid, info in by_gwid.items():
                 entry = configured.get(gwid)
-                if entry is not None:
-                    # Skip sub-devices for now, the WiFi reported product id is for the hub
-                    if not entry.data.get(CONF_DEVICE_CID):
-                        await self._check_product(entry, info.get("productKey"))
-                else:
+                if entry is None:
                     self._discover_new(gwid, info)
+                # elif not entry.data.get(CONF_DEVICE_CID):
+                #     # Skip sub-devices for now, the WiFi reported product id is for the hub
+                #     await self._check_product(entry, info.get("productKey"))
+
         finally:
             self._scanning = False
 
@@ -225,7 +226,7 @@ class TuyaLANRediscovery:
         self._warned_products.add(device_id)
         _LOGGER.warning(
             "%s: device product id %s is not listed in its config (%s); "
-            "if your device is an exact match for the config please report it so support can be improved",
+            "if your device is an exact match for the config please report Product Details it so support can be improved",
             entry.title,
             product_id,
             config_type,

@@ -1,7 +1,10 @@
 """Test the config parser"""
 
+import gc
+import warnings
+
+import probatio as vol
 import pytest
-import voluptuous as vol
 from fuzzywuzzy import fuzz
 from homeassistant.components.sensor import SensorDeviceClass
 
@@ -25,7 +28,6 @@ PRODUCT_SCHEMA = vol.Schema(
         # Bluetooth and Zigbee devices have 8 character product ids
         # WiFi devices have 16 character product ids
         vol.Required("id"): vol.All(str, vol.Length(min=8, max=16)),
-        vol.Optional("name"): str,
         vol.Optional("manufacturer"): str,
         vol.Optional("model"): str,
         vol.Optional("model_id"): str,
@@ -59,7 +61,7 @@ CONDMAP_SCHEMA = vol.Schema(
 )
 COND_SCHEMA = CONDMAP_SCHEMA.extend(
     {
-        vol.Required("dps_val"): vol.Maybe(vol.Any(str, int, bool, list)),
+        vol.Required("dps_val"): vol.Maybe(vol.Any(str, int, bool, list, float)),
         vol.Optional("mapping"): [CONDMAP_SCHEMA],
     }
 )
@@ -338,6 +340,18 @@ def test_can_find_config_files():
         found = True
         break
     assert found
+
+
+def test_available_configs_closes_scandir_handle():
+    """Test that the scandir handle is closed when the generator is dropped."""
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        configs = available_configs()
+        next(configs)
+        del configs
+        gc.collect()
+
+    assert not [w for w in caught if issubclass(w.category, ResourceWarning)]
 
 
 def dp_match(condition, accounted, unaccounted, known, required=False):
