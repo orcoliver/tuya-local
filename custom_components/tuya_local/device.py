@@ -126,7 +126,7 @@ class TuyaLocalDevice(object):
                             "tuyadevice": self._api,
                             "tuyadevicelock": self._api_lock,
                         }
-        except Exception as e:
+        except BaseException as e:
             _LOGGER.error(
                 "%s: %s while initialising device %s",
                 type(e).__name__,
@@ -317,7 +317,7 @@ class TuyaLocalDevice(object):
                         # let entities trigger off poll contents directly
                         try:
                             entity.on_receive(poll, full_poll)
-                        except Exception as e:
+                        except BaseException as e:
                             # Don't let exceptions thrown by the entities interrupt the communication loop
                             # Just log them and move on.
                             _LOGGER.exception(
@@ -326,6 +326,7 @@ class TuyaLocalDevice(object):
                                 entity.entity_id,
                                 e,
                             )
+
                         # clear non-persistant dps that were not in a full poll
                         if full_poll:
                             for dp in entity._config.dps():
@@ -340,7 +341,7 @@ class TuyaLocalDevice(object):
                     )
             _LOGGER.warning("%s receive loop has terminated", self.name)
 
-        except Exception as t:
+        except BaseException as t:
             _LOGGER.exception(
                 "%s receive loop terminated by exception %s", self.name, t
             )
@@ -488,7 +489,7 @@ class TuyaLocalDevice(object):
                 if self._api.parent:
                     self._api.parent.set_socketPersistent(False)
                 raise
-            except Exception as t:
+            except BaseException as t:
                 _LOGGER.exception(
                     "%s receive loop error %s:%s",
                     self.name,
@@ -745,7 +746,7 @@ class TuyaLocalDevice(object):
                     self._api_protocol_working = True
                     self._api_working_protocol_failures = 0
                     return retval
-            except Exception as e:
+            except BaseException as e:
                 _LOGGER.debug(
                     "Retrying after exception %s %s (%d/%d)",
                     type(e).__name__,
